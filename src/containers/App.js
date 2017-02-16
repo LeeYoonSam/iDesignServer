@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Game } from 'components';
+import { Header, Game, GridContents, ImageList } from 'components';
 
 class App extends React.Component {
     render(){
@@ -8,6 +8,12 @@ class App extends React.Component {
             <div>
                 <div>
                     <Header/>
+                </div>
+                <div>
+                    <ImageList/>
+                </div>
+                <div>
+                    <GridContents/>
                 </div>
                 <div>
                     <Game/>
